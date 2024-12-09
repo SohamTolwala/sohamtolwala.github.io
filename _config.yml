@@ -28,8 +28,11 @@ url: "https://sohamtolwala.github.io"
 github:
   username: SohamTolwala # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# twitter:
+#   username: twitter_username # change to your Twitter username
+
+linkedin:
+  username: soham-tolwala-269718218 # change to your LinkedIn username
 
 social:
   # Change to your full name.
@@ -193,6 +196,7 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+      hide_header: true
 
 sass:
   style: compressed

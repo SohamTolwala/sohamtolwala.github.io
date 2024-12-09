@@ -139,7 +139,7 @@
       <nav class="flex-column flex-grow-1 w-100 ps-0">
         <ul class="nav">
           <!-- home -->
-          <li class="nav-item active">
+          <li class="nav-item {% if page.url == '/' %}active{% endif %}">
             <a href="/" class="nav-link">
               <i class="fa-fw fas fa-home"></i>
               <span>HOME</span>
@@ -155,7 +155,7 @@
           </li>
 
           <!-- publications (new tab) -->
-          <li class="nav-item">
+          <li class="nav-item {% if page.url == '/publications/' %}active{% endif %}">
             <a href="/publications/" class="nav-link">
               <i class="fa-fw fas fa-book"></i>
               <span>PUBLICATIONS</span>
@@ -230,18 +230,18 @@
         </a>
 
         <a
-          href="https://twitter.com/twitter_username"
-          aria-label="twitter"
+          href="https://www.linkedin.com/in/soham-tolwala-269718218/"
+          aria-label="linkedin"
 
           target="_blank"
 
           rel="noopener noreferrer"
         >
-          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
         </a>
 
         <a
-          href="javascript:location.href = 'mailto:' + ['example','domain.com'].join('@')"
+          href="javascript:location.href = 'mailto:' + ['srtolwala11','gmail.com'].join('@')"
           aria-label="email"
         >
           <i class="fas fa-envelope"></i>
@@ -400,7 +400,7 @@
                 ©
                 <time>2024</time>
 
-                <a href="https://github.com/SohamTolwala">your_full_name</a>.
+                <a href="https://github.com/SohamTolwala">SohamTolwala</a>.
 
                 <span
                   data-bs-toggle="tooltip"
