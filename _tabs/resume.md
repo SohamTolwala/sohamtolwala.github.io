@@ -30,7 +30,7 @@ order: 1
   <div><i>March 2025 - Present</i></div>
 </div>
 <div style="display: flex; justify-content: space-between;">
-  <div>MSc. in Data Science and Artificial Intelligence</div>
+  <div>MSc in Data Science and Artificial Intelligence</div>
 </div>
 
 <div style="display: flex; justify-content: space-between;">
