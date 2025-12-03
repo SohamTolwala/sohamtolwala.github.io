@@ -55,7 +55,7 @@ order: 1
 
 
 <div style="display: flex; justify-content: space-between;">
-  <div><b>Data Science Intern, Whiz Key (OPC) Pvt Ltd</b></div>
+  <div><b>Data Science Intern, Whiz Key(OPC) Pvt Ltd</b></div>
   <div><i>July 2023 - December 2023</i></div>
 </div>
 - Developed models to detect pre-malignant lesions in oral cancer from endoscopic images
