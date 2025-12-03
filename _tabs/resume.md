@@ -4,7 +4,16 @@ icon: fa-fw fas fa-user-graduate
 order: 1
 ---
 
-## **Education**
+<!-- ## **Education**
+<div style="display: flex; justify-content: space-between;">
+  <div><b>Saarland University</b></div>
+  <div><i>March 2025 - Present</i></div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <div>MSc. in Data Science and Artificial Intelligence</div>
+</div>
+
+
 <div style="display: flex; justify-content: space-between;">
   <div><b>Savitribai Phule Pune University</b></div>
   <div><i>March 2024 - August 2024</i></div>
@@ -12,7 +21,28 @@ order: 1
 <div style="display: flex; justify-content: space-between;">
   <div>B.Tech in Artificial Intelligence and Data Science</div>
   <div>CGPA: 9.48/10</div>
+</div> -->
+
+
+## **Education**
+<div style="display: flex; justify-content: space-between;">
+  <div><b>Saarland University</b></div>
+  <div><i>March 2025 - Present</i></div>
 </div>
+<div style="display: flex; justify-content: space-between;">
+  <div>MSc. in Data Science and Artificial Intelligence</div>
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+  <div><b>Savitribai Phule Pune University</b></div>
+  <div><i>Feb 2021 - May 2024</i></div>
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <div>B.Tech in Artificial Intelligence and Data Science</div>
+  <div>CGPA: 9.48/10</div>
+</div>
+
+---
 
 ## **Relevant Work Experience**
 <div style="display: flex; justify-content: space-between;">
@@ -32,7 +62,15 @@ order: 1
 - Improved lesion recognition accuracy by 30% using semantic segmentation and depth mapping
 - Enhanced model performance by 20% with CNN-based architectures, gaining experience in medical imaging and data preprocessing
 
-## **Academic Projects**
+---
+
+## **Projects**
+<a href="https://github.com/SohamTolwala/waterbirds-irm-ssl">DINOv2-IRM for OOD Robustness</a>
+- Developed a stable OOD-robust training pipeline that couples self-supervised pretrained features (DINOv2 ViT-S/14) with a linear-head IRMv1 objective.
+- Demonstrated significant gains in worst-group accuracy on the Waterbirds benchmark, outperforming ERM and standard IRM.
+- Verified improved causal feature reliance through Grad-CAM analyses showing reduced attention to spurious background cues.
+
+
 <a href="https://github.com/SohamTolwala/QnA_RAG_NEET">NEET-QA: Retrieval Augmented Generation in Competitive Examinations</a>
 - Evaluated a RAG-based Question Answering System for NEET(Indian Medical Entrance) exam using custom retrieval methods.
 - Boosted answer accuracy by 12.5% on average against simple LLMs in PCM MCQ answering, with highest of 20.1% in Biology domain.
@@ -49,6 +87,8 @@ order: 1
 - Extracted structured data from complex PDFs with multiple tables
 - Converted content into CSV/JSON formats using OpenAI Vision and Gemini Vision Pro
 
+---
+
 ## **Skills**
 ##### Programming & Frameworks
 Python, C++, PyTorch, TensorFlow, Scikit-learn, Flask, FastAPI, JavaScript
@@ -64,6 +104,8 @@ Hugging Face, Jupyter Notebook, Git, PowerBI, Vertex AI, PyCharm, Langchain, Ope
 
 ##### Specialized Skills
 Chatbots (Ruled Based, Hybrid, and Generative AI), Advanced RAG techniques
+
+---
 
 ## **Online Courses & Certifications**
 - Deep Learning Specialization - DeepLearning.AI
